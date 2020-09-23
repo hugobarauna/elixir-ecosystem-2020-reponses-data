@@ -11,7 +11,7 @@ So, this repo contains a processed version of that data, with a data model that 
 This repo contains two files:
 
 - **elixir-ecosystem-survey-2020-processed-data.dump**: this file contains a PostgreSQL dump with the processed data. You can load that to a PostgreSQL instance and start exploring it
-- **elixir-ecosystem-survey-2020-raw-data**: this file contains the original CSV export from the survey (you can also find the [original file here](https://drive.google.com/file/d/1iddghuuob9_e9CFm05VnHjlELiwgnQqz/view))
+- **elixir-ecosystem-survey-2020-raw-data.csv**: this file contains the original CSV export from the survey (you can also find the [original file here](https://drive.google.com/file/d/1iddghuuob9_e9CFm05VnHjlELiwgnQqz/view))
 
 # Query examples
 
