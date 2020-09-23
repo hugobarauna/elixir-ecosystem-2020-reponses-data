@@ -1,5 +1,5 @@
 # Elixir Ecosystem 2020 reponses data
-This repo contains the raw and processed data from the responses of The Elixir Ecosystem Survey 2020.
+This repo contains the raw and processed data from the responses of [The Elixir Ecosystem Survey 2020](https://elixirsurvey.typeform.com/report/yYmJv1/OcCCilUmDn8lBpgP).
 
 # Why this repo?
 We have all this data from the Elixir Ecosystem Survey 2020 (thanks https://github.com/bcardarella for that). But, the raw data is not easy to query it, explore and make visualizations.
