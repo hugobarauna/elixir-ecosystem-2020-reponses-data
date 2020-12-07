@@ -13,6 +13,13 @@ This repo contains two files:
 - **elixir-ecosystem-survey-2020-processed-data.dump**: this file contains a PostgreSQL dump with the processed data. You can load that to a PostgreSQL instance and start exploring it
 - **elixir-ecosystem-survey-2020-raw-data.csv**: this file contains the original CSV export from the survey (you can also find the [original file here](https://drive.google.com/file/d/1iddghuuob9_e9CFm05VnHjlELiwgnQqz/view))
 
+# Local setup
+
+1. `git clone git@github.com:hugobarauna/elixir-ecosystem-2020-reponses-data.git`
+1. `cd elixir-ecosystem-2020-reponses-data`
+1. `createdb -T template0 elixir_survey_results`
+1. `psql elixir_survey_results < elixir-ecosystem-survey-2020-processed-data.dump`
+
 # Query examples
 
 Here are two examples of queries you can run:
